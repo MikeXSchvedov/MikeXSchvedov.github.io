@@ -294,6 +294,17 @@ background-size: cover;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.title_salad {
+color: white;
+z-index: 1;
+width: 100%;
+font-size: 80px;
+font-family: 'Suez One', serif;
+background-image: url("salad.jpg");
+background-size: cover;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
 .title_dressing {
 color: white;
