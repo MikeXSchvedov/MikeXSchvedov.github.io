@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<title> רטבים / ממרחים </title>
+<link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
+<link rel="stylesheet" href="food.css">
+</head>
+
+
+
+<body class="mainbody">
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <div class="overlay-title">
+  <hr>
+  תפריט
+ 
+  <hr>
+  </div>
+  <a href="first.html" class="menu1">ראשונות</a>
+   <a href="main.html" class="menu2">עיקריות</a>
+   <a href="salad.html" class="menu3">סלטים</a>
+   <a href="dressing.html" class="menu4">רטבים/ממרחים</a>
+   <a href="soup.html" class="menu5">מרקים</a>
+   <a href="bake.html" class="menu6">אפייה</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<span class="menubutton" onclick="openNav()" align="left">
+&#9776
+
+</span>
+<center>
+<div class="title_dressing">
+רטבים / ממרחים
+</div>
+</center>
+
+<hr>
+
+
+<button class="collapsible">
+<img src="dressing_1.jpg" width="50px" height="50px" align="right" />
+
+רוטב מליון האיים
+</button>
+<div class="content">
+  <p>
+  
+  <ul dir="rtl">
+  <li>
+  <font color="white">  120 גרם  </font>
+  &nbsp
+  מיונז
+  
+  </li>
+  <li>
+<font color="white">   1 </font>
+&nbsp
+מלפפון חמוץ קצוץ
+ </li>
+ <li>
+ <font color="white"> 1 כפית </font>
+ &nbsp
+ חרדל
+ 
+ </li>
+ <li>
+ <font color="white">  1 כפית   </font>
+ &nbsp
+אבקת שום
+ 
+ </li>
+ <li>
+ <font color="white">   1 כפית    </font>
+ &nbsp
+ אבקת בצל
+ 
+ </li>
+ <li>
+ <font color="white">  1 כפית  </font>
+ &nbsp
+ פפריקה
+ 
+ </li>
+ <li>
+ <font color="white">  1 כפית </font>
+ &nbsp
+ חומץ
+ 
+ </li>
+ <li>
+ <font color="white">  חצי כפית  </font>
+ &nbsp
+ פלפל לבן
+ 
+ </li>
+ 
+  </ul>
+  <hr>
+  <ol dir="rtl">
+  <li>
+ מערבבים הכל יחד למרקם אחיד.
+  </li>
+  
+  </ol>
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+/* Expand collapsable content */
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
+</html>

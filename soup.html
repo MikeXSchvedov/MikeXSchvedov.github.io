@@ -1,0 +1,147 @@
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
+<link rel="stylesheet" href="food.css">
+</head>
+
+
+
+<body class="mainbody">
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <div class="overlay-title">
+  <hr>
+  תפריט
+ 
+  <hr>
+  </div>
+  <a href="first.html" class="menu1">ראשונות</a>
+   <a href="main.html" class="menu2">עיקריות</a>
+   <a href="salad.html" class="menu3">סלטים</a>
+   <a href="dressing.html" class="menu4">רטבים/ממרחים</a>
+   <a href="soup.html" class="menu5">מרקים</a>
+   <a href="bake.html" class="menu6">אפייה</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<span class="menubutton" onclick="openNav()" align="left">
+&#9776
+
+</span>
+<center>
+<div class="title_soup">
+מרקים
+</div>
+</center>
+
+<hr>
+
+
+<button class="collapsible">
+<img src="soup_1.jpg" width="50px" height="50px" align="right" />
+
+מרק אפונה
+</button>
+<div class="content">
+  <p>
+  
+  <ul dir="rtl">
+  <li>
+  <font color="white"> 500 גרם</font>
+  &nbsp
+  אפונה יבשה
+  
+  </li>
+  <li>
+<font color="white">   2 יחידות  </font>
+&nbsp
+גזר 
+ </li>
+<li>
+<font color="white">   4  </font>
+&nbsp
+שיני שום
+ </li>
+ <li>
+ <font color="white">   </font>
+ &nbsp
+ מרק עוף, פפריקה, מלח ופלפל
+ </li>
+  </ul>
+  <hr>
+  <ol dir="rtl">
+  <li>
+ ממלאים סיר במים ושמים פנימה את האפונה.
+ <br>
+ מביאים לרתיחה ולאחר מכן מורידים את הלהבה וממשיכים לבשל עוד 20 דקות.
+  </li>
+  <br>
+  <li>
+מוסיפים את הגזר והשום ונותנים לו עוד זמן על האש.
+  </li>
+  <br>
+  <li>
+  בצלוחית מערבבים קצת שמן ותבלינים ומוסיפים למרק.
+  </li>
+  <br>
+  <li>
+כאשר האפונה כבר רכה והנוזלים הצטמצמו מעט, טוחנים את המרק עם סטיק.
+<br>
+ניתן לטחון לגמרי או חלקית, תלוי במה שרוצים.
+  </li>
+  <br>
+  <li>
+נותנים למרק להצטמצם עוד 10 דקות בערך או לפי העין.
+<br>
+מומלץ להגיש עם פרמזן טחון מעל.
+  
+  </li>
+
+  </p>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+/* Expand collapsable content */
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+</body>
+</html>
