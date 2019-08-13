@@ -126,11 +126,11 @@ float: left;
 padding-top: 10px;
 border: black solid;
 top: 10px;
-width: 90px;
+width: 110px;
 height: 90px;
 color: white;
 text-align: center;
-font-size: 40px;
+font-size: 50px;
 z-index: 2;
 
 }
@@ -158,6 +158,7 @@ font-family: 'Suez One', serif;
 .menu1 {
 background: url("first.jpg");
 background-size: cover;
+
 height: 10%;
 }
 
@@ -201,6 +202,7 @@ font-style: bold;
 
 
 a.menu1{
+  padding-top: 20px;
   font-size: 100px;
 }
 a.menu1:hover{
@@ -211,6 +213,7 @@ a.menu1:hover{
 
 a.menu2{
   font-size: 100px;
+    padding-top: 20px;
 }
 a.menu2:hover{
   font-size: 120px;
@@ -219,6 +222,7 @@ a.menu2:hover{
 }
 
 a.menu3{
+    padding-top: 20px;
   font-size: 100px;
 }
 a.menu3:hover{
@@ -228,6 +232,7 @@ a.menu3:hover{
 }
 
 a.menu4{
+    padding-top: 20px;
   font-size: 100px;
 }
 a.menu4:hover{
@@ -237,6 +242,7 @@ a.menu4:hover{
 }
 
 a.menu5{
+    padding-top: 20px;
   font-size: 100px;
 }
 a.menu5:hover{
@@ -246,6 +252,7 @@ a.menu5:hover{
 }
 
 a.menu6{
+    padding-top: 20px;
   font-size: 100px;
 }
 a.menu6:hover{
