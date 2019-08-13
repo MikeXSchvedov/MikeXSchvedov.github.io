@@ -70,6 +70,7 @@ background: rgb(0, 0, 0);
   top: 2px;
   right: 15px;
   font-size: 100px;
+  visibility: hidden;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
@@ -122,11 +123,11 @@ background: rgb(0, 0, 0);
 .menubutton {
 background-color: rgba(0,0,0, 0.3);
 float: left;
-padding-top: 5px;
+padding-top: 10px;
 border: black solid;
 top: 10px;
-width: 70px;
-height: 70px;
+width: 90px;
+height: 90px;
 color: white;
 text-align: center;
 font-size: 40px;
